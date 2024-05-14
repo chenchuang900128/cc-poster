@@ -1,0 +1,1 @@
+<view style="background:#FFFFFF"><canvas wx:if="{{a}}" canvas-id="{{b}}" style="{{'width:' + c + ';' + ('height:' + d)}}"></canvas><image wx:else lazy-load src="{{e}}" mode="widthFix" class="is-response" bindlongpress="{{f}}"></image></view>

@@ -1,0 +1,1 @@
+<view><button style="margin:66px 36px" bindtap="{{a}}"> 生成海报 </button><view class="{{['cu-modal', f]}}" bindtap="{{g}}"><view wx:if="{{b}}" class="cu-dialog" bindtap="{{e}}"><view class="bg-img"><cc-poster wx:if="{{d}}" bindsuccess="{{c}}" u-i="4a43bc63-0" bind:__l="__l" u-p="{{d}}"></cc-poster></view></view></view></view>

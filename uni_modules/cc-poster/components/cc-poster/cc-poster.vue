@@ -197,14 +197,14 @@
 					_this.ctx.fillText('券后价 ￥' + _this.PriceTxt, _strlineW, _strHeight); //商品价格
 					_strlineW += _this.ctx.measureText('券后价 ￥' + _this.PriceTxt).width + uni.upx2px(10);
 				}
-				// #ifdef H5
+			
 				if (_this.PriceTxt != '' && _this.OriginalTxt != '') {
 					//判断是否有销售价格且原价
 					_this.ctx.setFillStyle(_this.OriginalColor);
 					_this.ctx.setFontSize(uni.upx2px(24));
 					_this.ctx.fillText(_this.OriginalTxt, _strlineW, _strHeight); //商品原价
 				}
-				// #endif
+				
 				_this.ctx.strokeStyle = _this.OriginalColor;
 				_this.ctx.moveTo(_strlineW, _strHeight - uni.upx2px(10)); //起点
 				_this.ctx.lineTo(_strlineW + _this.ctx.measureText(_this.OriginalTxt).width, _strHeight - uni.upx2px(10)); //终点

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "自定义精美商品分类组件",
+  "usingComponents": {
+    "cc-poster": "../../uni_modules/cc-poster/components/cc-poster/cc-poster"
+  }
+}
